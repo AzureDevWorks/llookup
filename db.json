@@ -1,7 +1,112 @@
-[
-                    { id: 1, licenseNumber: "RN98765", firstName: "Alice", lastName: "Williams", businessName: "", address: { street: "123 Main St", city: "Columbia", state: "SC", zip: "29201" }, boardName: "Board of Nursing", licenseType: "Registered Nurse", status: "Active", initialDate: "2018-08-15", issueDate: "2024-08-15", expiryDate: "2026-08-14", disciplinaryAction: "None on record", compactStatus: "Multi-State Privileges" },
-                    { id: 2, licenseNumber: "GC54321", firstName: "", lastName: "", businessName: "Palmetto State Builders LLC", address: { street: "456 King St", city: "Charleston", state: "SC", zip: "29401" }, boardName: "Contractors' Licensing Board", licenseType: "General Contractor", status: "Active", initialDate: "2015-05-20", issueDate: "2023-05-20", expiryDate: "2025-05-19", disciplinaryAction: "None on record", insuranceInfo: { provider: "Builders Mutual", policyNumber: "BMP987654321", expires: "2026-01-01" } },
-                    { id: 3, licenseNumber: "CO11223", firstName: "James", lastName: "Brown", businessName: "The Modern Cut", address: { street: "789 N Pleasantburg Dr", city: "Greenville", state: "SC", zip: "29601" }, boardName: "Board of Cosmetology", licenseType: "Cosmetologist", status: "Expired", initialDate: "2016-02-10", issueDate: "2022-02-10", expiryDate: "2024-02-09", disciplinaryAction: "None on record" },
-                    { id: 6, licenseNumber: "ME99999", firstName: "Charles", lastName: "Davis", businessName: "", address: { street: "321 University Ave", city: "Rock Hill", state: "SC", zip: "29730" }, boardName: "Board of Medical Examiners", licenseType: "Physician", status: "Suspended", initialDate: "2012-06-30", issueDate: "2022-06-30", expiryDate: "2024-06-29", disciplinaryAction: "Yes - See board order #2024-15", disciplineFile: "#" },
-                    { id: 7, licenseNumber: "PT88776", firstName: "Emily", lastName: "Jones", businessName: "", address: { street: "100 Evans St", city: "Florence", state: "SC", zip: "29501" }, boardName: "Board of Physical Therapy Examiners", licenseType: "Physical Therapist", status: "Revoked", initialDate: "2017-09-01", issueDate: "2019-09-01", expiryDate: "2021-08-31", disciplinaryAction: "Yes - See board order #2022-08", disciplineFile: "#" }
-                ]
+{
+  "licenses": [
+    {
+      "id": 1,
+      "licenseNumber": "RN98765",
+      "firstName": "Alice",
+      "lastName": "Williams",
+      "businessName": "",
+      "address": {
+        "street": "123 Main St",
+        "city": "Columbia",
+        "state": "SC",
+        "zip": "29201"
+      },
+      "boardName": "Board of Nursing",
+      "licenseType": "Registered Nurse",
+      "status": "Active",
+      "initialDate": "2018-08-15",
+      "issueDate": "2024-08-15",
+      "expiryDate": "2026-08-14",
+      "disciplinaryAction": "None on record",
+      "compactStatus": "Multi-State Privileges"
+    },
+    {
+      "id": 2,
+      "licenseNumber": "GC54321",
+      "firstName": "",
+      "lastName": "",
+      "businessName": "Palmetto State Builders LLC",
+      "address": {
+        "street": "456 King St",
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29401"
+      },
+      "boardName": "Contractors' Licensing Board",
+      "licenseType": "General Contractor",
+      "status": "Active",
+      "initialDate": "2015-05-20",
+      "issueDate": "2023-05-20",
+      "expiryDate": "2025-05-19",
+      "disciplinaryAction": "None on record",
+      "insuranceInfo": {
+        "provider": "Builders Mutual",
+        "policyNumber": "BMP987654321",
+        "expires": "2026-01-01"
+      }
+    },
+    {
+      "id": 3,
+      "licenseNumber": "CO11223",
+      "firstName": "James",
+      "lastName": "Brown",
+      "businessName": "The Modern Cut",
+      "address": {
+        "street": "789 N Pleasantburg Dr",
+        "city": "Greenville",
+        "state": "SC",
+        "zip": "29601"
+      },
+      "boardName": "Board of Cosmetology",
+      "licenseType": "Cosmetologist",
+      "status": "Expired",
+      "initialDate": "2016-02-10",
+      "issueDate": "2022-02-10",
+      "expiryDate": "2024-02-09",
+      "disciplinaryAction": "None on record"
+    },
+    {
+      "id": 6,
+      "licenseNumber": "ME99999",
+      "firstName": "Charles",
+      "lastName": "Davis",
+      "businessName": "",
+      "address": {
+        "street": "321 University Ave",
+        "city": "Rock Hill",
+        "state": "SC",
+        "zip": "29730"
+      },
+      "boardName": "Board of Medical Examiners",
+      "licenseType": "Physician",
+      "status": "Suspended",
+      "initialDate": "2012-06-30",
+      "issueDate": "2022-06-30",
+      "expiryDate": "2024-06-29",
+      "disciplinaryAction": "Yes - See board order #2024-15",
+      "disciplineFile": "#"
+    },
+    {
+      "id": 7,
+      "licenseNumber": "PT88776",
+      "firstName": "Emily",
+      "lastName": "Jones",
+      "businessName": "",
+      "address": {
+        "street": "100 Evans St",
+        "city": "Florence",
+        "state": "SC",
+        "zip": "29501"
+      },
+      "boardName": "Board of Physical Therapy Examiners",
+      "licenseType": "Physical Therapist",
+      "status": "Revoked",
+      "initialDate": "2017-09-01",
+      "issueDate": "2019-09-01",
+      "expiryDate": "2021-08-31",
+      "disciplinaryAction": "Yes - See board order #2022-08",
+      "disciplineFile": "#"
+    }
+  ]
+}
